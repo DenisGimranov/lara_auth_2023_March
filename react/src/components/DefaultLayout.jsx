@@ -42,7 +42,7 @@ export default function DefaultLayout() {
          Header
        </div>
        <div>
-         {user.name}
+         {user.keyOO || "Учётная запись не подтверждена"}
          <a href="#" onClick={onLogout} className="btn-logout">Выход</a>
        </div>
      </header>
